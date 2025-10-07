@@ -24,3 +24,29 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* 
+  An easy way to style content created from imported `.mdx` files 
+  Alternatively, we can use `prose` from Tailwind CSS Typography plugin, 
+  or defined custom components with Tailwind classNames in `mdx-components.tsx` 
+*/
+.content-from-markdown {
+  a {
+    color: #3b82f6;
+    text-decoration: underline;
+
+    &:hover {
+      color: #2563eb;
+    }
+  }
+
+  ul {
+    padding-left: 1.25rem;
+  }
+
+  li {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    list-style-type: disc;
+  }
+}

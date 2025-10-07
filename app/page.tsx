@@ -1,3 +1,5 @@
+import Hello from '@/content/hello.mdx';
+
 export default function Home() {
   return (
     <div className='p-10 font-sans'>
@@ -6,10 +8,12 @@ export default function Home() {
           next-mdx-spike-01
         </h1>
       </header>
-      <main className='pt-10'>
-        <p>
-          Some paragraph text ...
-        </p>
+      <main className='content-from-markdown pt-6'>
+        <div
+          className='space-y-4'
+        >
+          <Hello />
+        </div>
       </main>
       <footer>
       </footer>
