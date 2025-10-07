@@ -2,6 +2,8 @@
 
 A spike for learning how to use [**MDX**](https://mdxjs.com/) in [**Next.js**](https://nextjs.org/docs)
 
+Deployed live to Vercel: [next-mdx-spike-01.vercel.app](https://next-mdx-spike-01.vercel.app/)
+
 ## Technical notes
 
 - [`app/page.tsx`](app/page.tsx) imports and renders [`content/hello.mdx`](content/hello.mdx).
