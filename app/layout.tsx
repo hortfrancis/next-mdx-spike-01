@@ -27,8 +27,20 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <div className='p-10 font-sans'>
+          <header>
+            <h1 className='text-2xl font-bold pb-2 border-b'>
+              next-mdx-spike-01
+            </h1>
+          </header>
+          <main className=' pt-6'>
+            {children}
+          </main>
+          <footer>
+          </footer>
+        </div >
       </body>
+
     </html>
   );
 }
