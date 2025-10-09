@@ -1,3 +1,5 @@
+import Card from "@/app/components/Card";
+
 ## This is 2nd-level heading
 
 This is a paragraph. Hello World! :)
@@ -18,5 +20,22 @@ console.log("This is a code block");
 And here is some **bold text** and _italic text_.
 
 ---
-   
+
 This additional text was added from within GitHub.com 🚀
+
+---
+
+<Card title="Info card" type="info">
+  This is a custom React component, imported into `content/Hello.mdx`
+</Card>
+
+<Card title="Warning card" type="warning">
+  Watch out for wolves in the woods!
+</Card>
+
+<Card title="Error card" type="error">
+  Something went wrong!
+
+You have been marked for deletion.
+
+</Card>
